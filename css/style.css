@@ -1,0 +1,145 @@
+:root{
+  background: linear-gradient(45deg, #163cb8, #be3737);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+.contenedor {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  width: 30rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  background: linear-gradient(
+    90deg,
+    rgb(25, 75, 184) 0%,
+    rgb(0, 10, 255) 100%
+  );
+  border-radius: 4rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 114, 244, 0.6);
+  transition: transform 150ms;
+  transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#highscore-btn {
+  background: linear-gradient(
+    90deg,
+    rgb(230, 222, 12) 0%,
+    rgba(209, 192, 8, 0.89) 100%
+  );
+}
+
+#highscore-btn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+}
+
+#icon{
+  font-size: 2.4rem;
+  margin-left: 1rem;
+}
+
+/*Final*/
+
+.end-form-contenedor{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+input{
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+
+}
+
+input::placeholder{
+  color: #aaa;
+}
+
+#username{
+  margin-bottom: 3rem;
+  width: 100%;
+  outline: none;
+}
+
+#end-text{
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+#saveScoreBtn{
+  border: none;
+  
+}
