@@ -14,14 +14,14 @@
             <h1 id="finalScore">0</h1>
             <form class="end-form-contenedor">
                 <h2 id="end-text">
-                    Lo has hecho bien, registra tu puntaje.
+                    Registra tu puntaje.
                 </h2>
-                <input type="text" name="name" id="username" placeholder="Nombre">
-                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>
+                <input class="name" type="text" name="name" id="username" placeholder="Nombre" autofocus>
+                <button class="btn save" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>
                     Guardar <ion-icon id="icon" name="cloud-done-outline"></ion-icon></button>
             </form>
-            <a href="/game.html" class="btn">¿Otra Vez?</a>
-            <a href="/index.html" class="btn">Inicio<ion-icon id="icon" name="home-outline"></ion-icon></a>
+            <a href="/game.html" class="btn again">¿Otra Vez?</a>
+            <a href="/index.html" class="btn home">Inicio<ion-icon id="icon" name="home-outline"></ion-icon></a>
         </div>
     </div>
 

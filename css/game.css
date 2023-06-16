@@ -1,13 +1,14 @@
 body{
-    color:#fff;
+    color:black;
 }
 
 .contenedor-opciones{
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 4px;
-    background: rgb(39, 41, 44);
+    border-radius: 2rem;
+    background: white;
+    border: 3PX solid black ;
     font-size: 3rem;
     min-width: 80rem;
 }
@@ -21,7 +22,7 @@ body{
 
 .choice-prefix{
     padding: 2rem 2.5rem;
-    color: white;
+    color: black;
 }
 
 .choice-text{
@@ -46,6 +47,7 @@ body{
 .hud-prefix{
     text-align: center;
     font-size: 2rem;
+    color: white;
 }
 .hud-main-text{
     text-align: center;
@@ -54,7 +56,7 @@ body{
 #progressBar{
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11,223,36);
+    border: 0.2rem solid white;
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
